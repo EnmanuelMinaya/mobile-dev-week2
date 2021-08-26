@@ -8426,16 +8426,31 @@ namespace P1Login.Droid
 			public const int notify_panel_notification_icon_bg = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int roundedbg = 2131165303;
+			public const int outline_account_box_24 = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int roundedbgdark = 2131165304;
+			public const int outline_dangerous_20 = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int tooltip_frame_dark = 2131165305;
+			public const int outline_dangerous_24 = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int tooltip_frame_light = 2131165306;
+			public const int outline_update_24 = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int outline_visibility_off_24 = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int roundedbg = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int roundedbgdark = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int tooltip_frame_dark = 2131165310;
+			
+			// aapt resource value: 0x7F07007F
+			public const int tooltip_frame_light = 2131165311;
 			
 			static Drawable()
 			{
@@ -9425,6 +9440,24 @@ namespace P1Login.Droid
 			
 			// aapt resource value: 0x7F0C0003
 			public const int launcher_foreground = 2131492867;
+			
+			// aapt resource value: 0x7F0C0004
+			public const int outline_account_box_black_20 = 2131492868;
+			
+			// aapt resource value: 0x7F0C0005
+			public const int outline_account_circle_black_20 = 2131492869;
+			
+			// aapt resource value: 0x7F0C0006
+			public const int outline_dangerous_black_20 = 2131492870;
+			
+			// aapt resource value: 0x7F0C0007
+			public const int outline_update_black_20 = 2131492871;
+			
+			// aapt resource value: 0x7F0C0008
+			public const int outline_visibility_off_black_20 = 2131492872;
+			
+			// aapt resource value: 0x7F0C0009
+			public const int outline_visibility_off_black_48 = 2131492873;
 			
 			static Mipmap()
 			{

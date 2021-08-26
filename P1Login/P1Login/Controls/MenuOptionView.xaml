@@ -7,7 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     x:Name="this"
     mc:Ignorable="d">
+
     <Frame BindingContext="{x:Reference this}">
+
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
@@ -17,9 +19,16 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Label Text="{Binding MenuOptionTitle, FallbackValue='Menu Option Title'}" HorizontalOptions="Center"/>
-            <Image Grid.Row="1" Source="{Binding MenuOptionIconImageSource}" HorizontalOptions="Center"/>
-            <Label Grid.Row="2" Text="{Binding MenuOptionPlaceQtyProperty, FallbackValue='Place 5'}" HorizontalOptions="Center"/>
+            <Label HorizontalOptions="Center" Text="{Binding MenuOptionTitle, FallbackValue='Menu Option Title'}" />
+            <Image
+                Grid.Row="1"
+                HorizontalOptions="Center"
+                Source="{Binding MenuOptionIconImageSource}" />
+            <Label
+                Grid.Row="2"
+                HorizontalOptions="Center"
+                Text="{Binding MenuOptionPlaceQtyProperty, FallbackValue='Place 5'}" />
         </Grid>
+
     </Frame>
 </ContentView>

@@ -24,44 +24,46 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-            <controls:MenuOptionView
-                MenuOptionIconImageSource="ic_launcher"
-                MenuOptionPlaceQty="2"
-                MenuOptionTitle="hola" />
 
             <controls:MenuOptionView
-                Grid.Column="1"
-                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionIconImageSource="outline_update_24"
                 MenuOptionPlaceQty="2"
-                MenuOptionTitle="hola" />
+                MenuOptionTitle="Actualizar" />
+
+            
+            <controls:MenuOptionView
+                Grid.Column="1"
+                MenuOptionIconImageSource="outline_account_box_24"
+                MenuOptionPlaceQty="4"
+                MenuOptionTitle="Account" />
 
 
             <controls:MenuOptionView
                 Grid.Row="1"
-                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionIconImageSource="outline_visibility_off_24"
                 MenuOptionPlaceQty="2"
-                MenuOptionTitle="hola" />
+                MenuOptionTitle="Visibility" />
 
             <controls:MenuOptionView
                 Grid.Row="1"
                 Grid.Column="1"
-                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionIconImageSource="outline_dangerous_24"
                 MenuOptionPlaceQty="2"
-                MenuOptionTitle="hola" />
+                MenuOptionTitle="Risks" />
 
             <controls:MenuOptionView
                 Grid.Row="2"
                 Grid.Column="0"
-                MenuOptionIconImageSource="ic_launcher"
-                MenuOptionPlaceQty="2"
-                MenuOptionTitle="hola" />
+                MenuOptionIconImageSource="outline_update_24"
+                MenuOptionPlaceQty="3"
+                MenuOptionTitle="Actualizaciones" />
 
             <controls:MenuOptionView
                 Grid.Row="2"
                 Grid.Column="1"
-                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionIconImageSource="outline_account_box_24"
                 MenuOptionPlaceQty="2"
-                MenuOptionTitle="hola" />
+                MenuOptionTitle="Safety" />
 
         </Grid>
 
