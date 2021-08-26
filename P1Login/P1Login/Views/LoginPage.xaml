@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="P1Login.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Image
+                Grid.Row="0"
+                Margin="20,50,0,20"
+                Source="ic_launcher" />
+
+            <StackLayout Grid.Row="1" Padding="30,20">
+
+                <Entry
+                    x:Name="EmailEntry"
+                    HorizontalOptions="FillAndExpand"
+                    Placeholder="Email"
+                    Text="{Binding EmailInput}" />
+
+
+                <Entry
+                    x:Name="PasswordEntry"
+                    HorizontalOptions="FillAndExpand"
+                    IsPassword="True"
+                    Placeholder="Password"
+                    Text="{Binding PasswordInput}" />
+
+
+
+                <Button
+                    Command="{Binding LoginCommand}"
+                    CommandParameter="{Binding string}"
+                    Text="log in" />
+
+                <Button Command="{Binding NavigateCommand}" Text="Registrar" />
+
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
