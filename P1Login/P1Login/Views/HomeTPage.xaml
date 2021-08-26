@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    x:Class="P1Login.Views.HomeTPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:P1Login.Views"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <!--  Pages can be added as references or inline  -->
+    <ContentPage Title="Tab 1">
+
+        <Grid
+            Margin="15,15,15,15"
+            ColumnSpacing="15"
+            RowSpacing="15">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <controls:MenuOptionView
+                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionPlaceQty="2"
+                MenuOptionTitle="hola" />
+
+            <controls:MenuOptionView
+                Grid.Column="1"
+                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionPlaceQty="2"
+                MenuOptionTitle="hola" />
+
+
+            <controls:MenuOptionView
+                Grid.Row="1"
+                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionPlaceQty="2"
+                MenuOptionTitle="hola" />
+
+            <controls:MenuOptionView
+                Grid.Row="1"
+                Grid.Column="1"
+                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionPlaceQty="2"
+                MenuOptionTitle="hola" />
+
+            <controls:MenuOptionView
+                Grid.Row="2"
+                Grid.Column="0"
+                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionPlaceQty="2"
+                MenuOptionTitle="hola" />
+
+            <controls:MenuOptionView
+                Grid.Row="2"
+                Grid.Column="1"
+                MenuOptionIconImageSource="ic_launcher"
+                MenuOptionPlaceQty="2"
+                MenuOptionTitle="hola" />
+
+        </Grid>
+
+    </ContentPage>
+
+
+
+    <ContentPage Title="Tab 2" />
+    <ContentPage Title="Tab 3" />
+</TabbedPage>

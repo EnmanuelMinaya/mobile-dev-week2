@@ -40,7 +40,7 @@ namespace P1Login.ViewModels
             else
             {
                 UserDialogs.Instance.Toast($"Hola de nuevo {EmailInput}!", TimeSpan.FromSeconds(3));
-                App.Current.MainPage.Navigation.PushAsync(new HomePage());
+                App.Current.MainPage.Navigation.PushAsync(new HomeTPage());
             }
 
 
