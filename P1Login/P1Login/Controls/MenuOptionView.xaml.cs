@@ -15,7 +15,7 @@ namespace P1Login.Views
         public MenuOptionView()
         {
             InitializeComponent();
-            BindingContext = new MenuOptionViewModel();
+            BindingContext = new HomeTViewModel();
 
         }
         public string MenuOptionTitle

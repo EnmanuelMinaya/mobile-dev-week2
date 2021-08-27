@@ -26,44 +26,44 @@
 
 
             <controls:MenuOptionView
-                MenuOptionIconImageSource="outline_update_24"
-                MenuOptionPlaceQty="2"
-                MenuOptionTitle="Actualizar" />
+                MenuOptionIconImageSource="{Binding UpdateMenuOption.Image}"
+                MenuOptionPlaceQty="{Binding UpdateMenuOption.Place}"
+                MenuOptionTitle="{Binding UpdateMenuOption.Title}" />
 
             
             <controls:MenuOptionView
                 Grid.Column="1"
-                MenuOptionIconImageSource="outline_account_box_24"
-                MenuOptionPlaceQty="4"
-                MenuOptionTitle="Account" />
+                MenuOptionIconImageSource="{Binding AccountMenuOption.Image}"
+                MenuOptionPlaceQty="{Binding AccountMenuOption.Place}"
+                MenuOptionTitle="{Binding AccountMenuOption.Title}" />
 
 
             <controls:MenuOptionView
                 Grid.Row="1"
-                MenuOptionIconImageSource="outline_visibility_off_24"
-                MenuOptionPlaceQty="2"
-                MenuOptionTitle="Visibility" />
+                MenuOptionIconImageSource="{Binding VisibilityMenuOption.Image}"
+                MenuOptionPlaceQty="{Binding VisibilityMenuOption.Place}"
+                MenuOptionTitle="{Binding VisibilityMenuOption.Title}" />
 
             <controls:MenuOptionView
                 Grid.Row="1"
                 Grid.Column="1"
-                MenuOptionIconImageSource="outline_dangerous_24"
-                MenuOptionPlaceQty="2"
-                MenuOptionTitle="Risks" />
+                MenuOptionIconImageSource="{Binding DangerMenuOption.Image}"
+                MenuOptionPlaceQty="{Binding DangerMenuOption.Place}"
+                MenuOptionTitle="{Binding DangerMenuOption.Title}" />
 
             <controls:MenuOptionView
                 Grid.Row="2"
                 Grid.Column="0"
-                MenuOptionIconImageSource="outline_update_24"
-                MenuOptionPlaceQty="3"
-                MenuOptionTitle="Actualizaciones" />
+                MenuOptionIconImageSource="{Binding PersonelMenuOption.Image}"
+                MenuOptionPlaceQty="{Binding PersonelMenuOption.Place}"
+                MenuOptionTitle="{Binding PersonelMenuOption.Title}" />
 
             <controls:MenuOptionView
                 Grid.Row="2"
                 Grid.Column="1"
-                MenuOptionIconImageSource="outline_account_box_24"
-                MenuOptionPlaceQty="2"
-                MenuOptionTitle="Safety" />
+                MenuOptionIconImageSource="{Binding NewMenuOption.Image}"
+                MenuOptionPlaceQty="{Binding NewMenuOption.Place}"
+                MenuOptionTitle="{Binding NewMenuOption.Title}" />
 
         </Grid>
 
